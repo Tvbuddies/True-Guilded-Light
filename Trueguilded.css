@@ -1,0 +1,295 @@
+:root {
+
+}
+
+  /* Basic CSS */
+
+    /* Images & Videos */
+    .MediaRenderer-content {
+      border-radius: 10px;
+    }
+    /* Forms & Polls */
+    .FormsRenderer {
+      border-radius: 10px;
+      background-color: #373a43;
+    }
+      /* Results */
+      .HorizontalPercentageBar-bar {
+        border-radius: 10px;
+      }
+      .HorizontalPercentageBar-bar-highlight {
+        border-radius: 10px;
+      }
+
+    /* User Card */
+    .ProfileHoverCardV2Overlay-container {
+      border-radius: 10px;
+    }
+      /* Twitch Presence */
+      .RichPresence-mask {
+        background-color: #9145fd;
+        border-radius: 10px;
+      }
+      .FormConfirmButtonV2-container.FormConfirmButtonV2-container-hollow {
+        border-radius: 5px;
+      }
+
+    /* Option Menus */
+
+      /* Role Menu */
+      .TransientMenu-container.TransientMenu-container-unstyled {
+        border-radius: 10px;
+      }
+      .TeamRoleCardOverlay-container {
+        border-radius: 10px;
+      }
+      .TeamRoleCardOverlay-role-details {
+        background-color: #373a43;
+      }
+      .ActionMenu-container {
+        background-color: #2f3239;
+      }
+
+
+  /* Overview */
+  .SidebarInfoItem-container {
+    border-radius: 10px;
+  }
+
+    /* Summary */
+    .TeamOverviewContentSection-card {
+      border-radius: 10px;
+    }
+    .TeamAnnouncementItem-widget-wrapper {
+      border-radius: 10px;
+    }
+
+  /* Section List */
+
+    /* Subscriptions */
+
+  /* Channel List */
+  .TeamChannelItemContents-container-selected {
+    background: linear-gradient(to right, #198ad6, #1ebade, #26d1e0);
+    border-radius: 5px;
+  }
+  .TeamChannelItemContents-container::after {
+    border-radius: 5px;
+  }
+  .TeamChannelItemContents-container-selected .ChannelIcon-icon-primary {
+    fill: white;
+  }
+  .TeamChannelItemContents-container-selected .ChannelIcon-icon-secondary {
+    fill: white;
+  }
+  .TeamChannelItemContents-container.TeamChannelItemContents-container-selected .TeamChannelItemContents-action-icon {
+    fill: white;
+    opacity: 100%;
+  }
+  .TeamChannelItemContents-container-selected .TeamChannelItemContents-name {
+    font-weight: 510;
+  }
+
+    /* Text Channel */
+    .ChatChannelContents-container {
+      background-color: #30333c;
+    }
+    .ChatChannelInput-container .ChatChannelInput-editor {
+      background-color: #4c4f58;
+      border-radius: 10px;
+    }
+    .ChatV2Message-container {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    .ActionMenu-container {
+      background-color: #4f515d;
+    }
+    .ChatV2Message-container {
+      border-radius: 10px;
+    }
+
+      /* Quick Actions Menu */
+      .QuickActionBar-container {
+        border-radius: 10px;
+        background-color: #4f515d;
+        border: none;
+        padding: 4px;
+        }
+        .HoverContextTooltip-text-wrapper {
+          border-radius: 10px;
+          padding: 3.5px;
+        }
+
+          /* Extra Actions */
+          .Animatable-container:not(.TransientMenu-container-unstyled) .Overlay-status-context .ContextMenu-container .ActionMenu-container {
+            background-color: #4f515d;
+            border: none;
+            border-radius: 10px;
+          }
+
+          /* Replies */
+          .ChatChannelInputStatusDrawer-typeahead-portal-target, .ChatChannelInputStatusDrawer-inline-reply-bar {
+            background-color: #2f3239;
+            border-radius: 10px;
+          }
+
+          /* Private Replies */
+          .ChatV2Message-container:not(.ChatV2Message-container-editing):not(.ChatV2Message-container-replying):not(.ChatV2Message-container-mentioned):not(.ChatV2Message-container-private-other).ChatV2Message-container-private::after {
+            border-color: #8342b3;
+            border-top-left-radius: 50px;
+            border-bottom-left-radius: 50px;
+            width: 3.5px;
+        }
+
+        /* Replying To Highlight */
+        .ChatV2Message-container:not(.ChatV2Message-container-editing).ChatV2Message-container-replying:after {
+          border-color: #8342b3;
+          border-top-left-radius: 50px;
+          border-bottom-left-radius: 50px;
+          width: 3.5px;
+        }
+
+        /* Mention Highlight */
+        .ChatV2Message-container:not(.ChatV2Message-container-editing):not(.ChatV2Message-container-replying):not(.ChatV2Message-container-private).ChatV2Message-container-mentioned::after {
+          border-color: #8342b3;
+          border-top-left-radius: 50px;
+          border-bottom-left-radius: 50px;
+          width: 3.5px;
+        }
+    /* Streaming Channel */
+    /* Voice Channel */
+    /* Calendar Channel */
+
+      /* Event Creation Menu */
+      .HorizontalTab-container {
+        border-radius: 10px;
+      }
+      /*.CreateTeamEvent-container {
+        background: #282b32;
+      }
+      .FormFieldWrapper-container {
+        background: #3a3c48;
+        border-radius: 10px;
+        padding: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+      }*/
+
+      /* Event Menu */
+      .TeamEventDetails-status {
+        border-radius: 10px;
+        margin-bottom: 5px;
+      }
+      .EventTemporalChannelDisplay-container {
+        border-radius: 10px;
+        margin-bottom: 5px;
+      }
+      .EventCardMetadata-container {
+        border-radius: 10px;
+        margin-bottom: 5px;
+      }
+      .TeamEventDescription-container {
+        border-radius: 10px;
+        margin-bottom: 5px;
+      }
+      .PostMetadata-container {
+        border-radius: 10px;
+        margin-bottom: 5px;
+      }
+
+      /* Event Hover */
+      .FullSizedCalendarDay-container:hover {
+        transform: scale(1.05);
+        z-index: 100;
+        box-shadow: 5px 10px 25px #141414;
+        border-radius: 10px;
+        background-color: #32343d;
+      }
+
+    /* Scheduling Channel */
+    .AvailabilityDisplay-container {
+      border-radius: 10px;
+      border: None;
+    }
+    .AvailabilityDisplayHeader-subtitle {
+      color: #e8e9ed;
+      font-weight: lighter;
+    }
+    .AvailabilityDisplayHeader-button {
+      border: None;
+      border-radius: 10px;
+    }
+    .AvailabilityDisplayHeader-button:hover {
+      border-radius: 2px;
+    }
+
+      /* Availability Hour Tooltip */
+      .AvailabilityHourTooltip-container {
+        background-color: #000000;
+      }
+
+      /* Today Column */
+      .AvailabilityDisplayHeader-day-today {
+        background-color: #3c3f48;
+      }
+      .AvailabilityDayHour-now-line {
+        background-color: #0089e4;
+        height: 6px;
+      }
+
+      /* Tommorrow Column */
+      .AvailabilityDisplayHeader-day-alt {
+        background-color: #2e313a;
+      }
+
+    /* Announcement Channel */
+    /* Forum Channel */
+    .TeamPostRow-sticky {
+      border-radius: 4px;
+    }
+    .TeamPostRow-container-desktop {
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+
+      /* Topic View */
+      .TeamThreadPostPanel-display, .TeamThreadPostEditor-container, .TeamThreadReplyCreator-unexpanded-wrapper {
+        border-radius: 10px;
+      }
+
+      /* Editor */
+      .DraftInputWithTitleV2-container {
+        background-color: #26272c;
+        border-radius: 12px;
+      }
+      .Editor-container {
+        border-radius: 10px;
+      }
+    /* List Channel */
+    /* Doc Channel */
+
+      /* Editor */
+      .SlateToolbarStrip {
+        border-radius: 10px;
+        background-color: #373a43;
+      }
+    /* Media Channel */
+    /* User Profile */
+      /* Applications */
+    /* Server Settings */
+
+      /* Bots */
+      .UserCTAPanel-contents, .PanelList-option, .PanelList-option:not(:last-child) {
+        border-radius: 10px;
+        margin-bottom: 10px;
+        border: None;
+      }
+
+      /* Bot Settings */
+        .PanelList-container-orientation-horizontal .PanelList-option {
+          border-radius: 10px;
+          margin-bottom: 10px;
+        }
+
+          /* Flow Themes */
